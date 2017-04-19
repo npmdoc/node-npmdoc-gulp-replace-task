@@ -61,12 +61,64 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-replace-task">module gulp-replace-task</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-replace-task.gulp-replace-task">
+            function <span class="apidocSignatureSpan"></span>gulp-replace-task
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-replace-task" id="apidoc.module.gulp-replace-task">module gulp-replace-task</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-replace-task.gulp-replace-task" id="apidoc.element.gulp-replace-task.gulp-replace-task">
+        function <span class="apidocSignatureSpan"></span>gulp-replace-task
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-replace-task = function (opts) {
+
+  return through2.obj(function (file, enc, cb) {
+
+    if (file.isNull()) {
+      this.push(file);
+      return cb();
+    }
+
+    if (file.isStream()) {
+      this.emit(&#x27;error&#x27;, new gutil.PluginError(PLUGIN_NAME,
+        &#x27;Streaming not supported&#x27;));
+      return cb();
+    }
+
+    var options = opts || {};
+    var contents = file.contents.toString();
+    var applause = Applause.create(options);
+    var result = applause.replace(contents);
+    if (result !== false) {
+      file.contents = new Buffer(result);
+    } else {
+      // preserve original file
+    }
+
+    this.push(file);
+    cb();
+
+  });
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
