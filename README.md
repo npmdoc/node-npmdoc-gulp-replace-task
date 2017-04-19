@@ -1,9 +1,14 @@
-# api documentation for  [gulp-replace-task (v0.11.0)](https://github.com/outatime/gulp-replace-task#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-replace-task.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-replace-task) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task)
+# npmdoc-gulp-replace-task
+
+#### api documentation for  [gulp-replace-task (v0.11.0)](https://github.com/outatime/gulp-replace-task#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-replace-task.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-replace-task) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task)
+
 #### Replace text patterns with applause.
 
-[![NPM](https://nodei.co/npm/gulp-replace-task.png?downloads=true)](https://www.npmjs.com/package/gulp-replace-task)
+[![NPM](https://nodei.co/npm/gulp-replace-task.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-replace-task)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-replace-task/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-replace-task_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-replace-task/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-replace-task/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-replace-task/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-replace-task/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-replace-task/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-replace-task/build/screenCapture.npmPackageListing.svg)
 
@@ -65,13 +70,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "outatime",
-            "email": "afalduto@gmail.com"
+            "name": "outatime"
         }
     ],
     "name": "gulp-replace-task",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/outatime/gulp-replace-task.git"
@@ -83,16 +86,6 @@
     "version": "0.11.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-replace-task](#apidoc.module.gulp-replace-task)
-
-
-
-# <a name="apidoc.module.gulp-replace-task"></a>[module gulp-replace-task](#apidoc.module.gulp-replace-task)
 
 
 
