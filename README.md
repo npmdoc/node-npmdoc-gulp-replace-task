@@ -1,6 +1,6 @@
 # npmdoc-gulp-replace-task
 
-#### api documentation for  [gulp-replace-task (v0.11.0)](https://github.com/outatime/gulp-replace-task#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-replace-task.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-replace-task) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task)
+#### basic api documentation for  [gulp-replace-task (v0.11.0)](https://github.com/outatime/gulp-replace-task#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-replace-task.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-replace-task) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-replace-task)
 
 #### Replace text patterns with applause.
 
@@ -83,7 +83,8 @@
         "release": "scripts/release.sh",
         "test": "mocha"
     },
-    "version": "0.11.0"
+    "version": "0.11.0",
+    "bin": {}
 }
 ```
 
